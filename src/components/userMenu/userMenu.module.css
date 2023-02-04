@@ -1,0 +1,22 @@
+.userMenu {
+  display: flex;
+  align-items: center;
+}
+
+.userMenuText {
+  margin-right: 20px;
+}
+
+.userMenuBtn {
+  font-weight: 700;
+  padding: 5px 10px;
+  color: #000000;
+  background-color: #66ff99;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.userMenuBtn:hover {
+  filter: brightness(0.7);
+}

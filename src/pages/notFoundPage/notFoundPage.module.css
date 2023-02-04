@@ -1,0 +1,9 @@
+.notFoundWrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.notFoundTitle {
+  font-size: 48px;
+}

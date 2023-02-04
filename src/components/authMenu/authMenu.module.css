@@ -1,0 +1,22 @@
+.authMenu {
+  display: flex;
+}
+
+.authLink,
+.authLinkActive {
+  font-weight: 700;
+}
+
+.authLink:not(:last-child),
+.authLinkActive:not(:last-child) {
+  margin-right: 20px;
+}
+
+.authLinkActive {
+  color: #66ff99;
+  text-decoration: underline;
+}
+
+.authLink:hover {
+  filter: brightness(0.7);
+}

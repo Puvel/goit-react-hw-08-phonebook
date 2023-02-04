@@ -1,0 +1,79 @@
+.contact {
+  display: flex;
+  min-width: 385px;
+  box-shadow: 0px 0px 3px 0px #ffffff;
+  padding: 15px;
+}
+
+.contact:hover {
+  box-shadow: 0px 0px 8px 0px #ffffff;
+}
+
+.contact:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.contactForm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contactInputsWrap {
+  width: 65%;
+}
+
+.contactControl {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactControl:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.contactLabel {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.contactInput {
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.09);
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
+
+.contactText {
+  font-size: 18px;
+  height: 30px;
+}
+
+.contactsBtnWrap {
+  display: flex;
+  align-self: flex-start;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.contactsBtnIcon {
+  width: 20px;
+  height: 20px;
+}
